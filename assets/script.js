@@ -1,5 +1,5 @@
 //Date is displayed in the Jumbotron.
-$('#todayDay').text(moment().format('dddd, MMMM Do YYYY'));
+$('#currentDay').text(moment().format('dddd, MMMM Do YYYY'));
 //Starts the function to display the colors for the applicable text boxes (prior, current, next).
 function setColor() {
 //Sets the time to appear in the current hour, using moment.js

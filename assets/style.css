@@ -8,15 +8,16 @@ textarea {
   background: transparent;
   border: none;
   resize: none;
-  color: #000000;
+  color: #ffffff;
   border-left: 1px solid black;
   padding: 10px;
 }
 
 .jumbotron {
   text-align: center;
-  background-color: transparent;
-  color: black;
+  font-weight: bold;
+  background-image: url("https://i.pinimg.com/originals/07/5e/b7/075eb74eca4cb75163d83e77b743f998.gif");
+  color: rgb(244, 114, 0);
   border-radius: 0;
   border-bottom: 10px solid black;
 }
@@ -40,20 +41,21 @@ textarea {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
+  padding-top: 30px;
 }
 
-.past {
-  background-color: #d3d3d3;
+.prior {
+  background-color: #563ae2;
   color: white;
 }
 
-.present {
-  background-color: #ff6961;
+.current {
+  background-color: #000000;
   color: white;
 }
 
-.future {
-  background-color: #77dd77;
+.next {
+  background-color: #e20000;
   color: white;
 }
 
@@ -61,7 +63,7 @@ textarea {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06aed5;
+  background-color: #d57406;
   color: white;
 }
 
