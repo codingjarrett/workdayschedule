@@ -13,6 +13,14 @@ textarea {
   padding: 10px;
 }
 
+footer {
+  text-align: center;
+  color: rgb(255, 119, 0);
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  padding: 15px;
+}
+
 .jumbotron {
   text-align: center;
   font-weight: bold;
@@ -70,4 +78,33 @@ textarea {
 .saveBtn i:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
+}
+
+@media only screen and (max-width: 960px) {
+  .jumbotron {
+    background-image: url("https://media1.giphy.com/media/IRZE8JX2BQikM/200.gif?cid=82a1493b16d3g70ib8xaxeeu5tygilwwa5d82q8ypb18esmx&rid=200.gif&ct=g");
+  }
+  main {
+      margin-left:50px;
+      margin-right:50px;
+  }
+  footer {
+    margin-top: 50px;
+    padding-top: 50px;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .jumbotron {
+    background-image: url("https://media1.giphy.com/media/IRZE8JX2BQikM/200.gif?cid=82a1493b16d3g70ib8xaxeeu5tygilwwa5d82q8ypb18esmx&rid=200.gif&ct=g");
+    font-size: 125%;
+  }
+  main {
+      margin-left:10px;
+      margin-right:10px;
+  }
+  footer {
+    margin-top: 50px;
+    padding-top: 50px;
+  }
 }
